@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Limo Makeup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e1bbc6e08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand">Navbar</a>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#"><img src="img/carro.png" height="20px"></a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div>
+        <div>
+            <div>
+                <h1>Pedidos</h1>
+        
+                <span id="status"></span>
+
+                <div class="row justify-content-center h-100">
+                    <div class="align-self-center total" id="total">Total</div>
+                </div>
+                <br>
+                
+                <button class="btn btn-success botonCompra" type="submit" onclick="comprar()">Comprar</button>
+                <input type="button" class="btn btn-success botonBorrar" value="Borrar" onclick="borrar()"/>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footerLM">
+        Términos y condiciones de la empresa: Ver reglamento
+        <br><br>
+        <script src="js/scriptCarrito.js"></script>
+        <a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
+        <img src="img/whatsapp.png">
+        <a href="https://www.instagram.com/"><img src="img/instagram.png"></a>
+    </footer>
+</body>
+
+</html>
